@@ -1,4 +1,4 @@
-import {Card, Container, Row, Col, Image} from 'react-bootstrap'
+import {Card, Container, Row, Col, Image, Nav} from 'react-bootstrap'
 import antman from '../assets/images/trending/antman.jpg'
 import avenger from '../assets/images/trending/avenger.jpg'
 import batman from '../assets/images/trending/batman.jpg'
@@ -14,6 +14,7 @@ const Trending = () => {
                 <br />
                 <br />
                 <h1 className='text-white' id='trending'>TRENDING MOVIES</h1>
+                <Nav.Link className='text-white text-end' href='/'>Home</Nav.Link>
                 <Row>
                     <Col md={4} className='movieWrapper'>
                         <Card className="bg-dark movieImage">

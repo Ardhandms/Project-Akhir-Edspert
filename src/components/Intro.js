@@ -8,8 +8,9 @@ const Intro = () => {
               <Col>
                 <div className='title'>JELAJAHI DUNIA MELALUI</div>
                 <div className='title'>TAYANGAN FILM EPIK</div>
-                <div className='introButton mt-4 text-center'>
-                    <Button variant='dark'>MULAI MENJELAJAH</Button>
+                <div className='introButton text-center'>
+                    <Button variant='dark mt-3' href='#trending'>TRENDING MOVIE</Button>
+                    <Button variant='dark mt-3' href='#new' style={{marginLeft: '10px'}}>NEW MOVIE</Button>
                 </div>
               </Col>
             </Row>

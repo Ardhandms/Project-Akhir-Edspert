@@ -1,4 +1,4 @@
-import {Card, Container, Row, Col, Image} from 'react-bootstrap'
+import {Card, Container, Row, Col, Image, Nav} from 'react-bootstrap'
 import dune from '../assets/images/new/dune.jpg'
 import everything from '../assets/images/new/everything.jpg'
 import infinite from '../assets/images/new/infinite.jpg'
@@ -14,6 +14,7 @@ const New = () => {
                 <br />
                 <br />
                 <h1 className='text-white'>NEW MOVIES</h1>
+                <Nav.Link className='text-white text-end' href='/'>Home</Nav.Link>
                 <Row>
                     <Col md={4} className='movieWrapper' id='new'>
                         <Card className="bg-dark movieImage">
